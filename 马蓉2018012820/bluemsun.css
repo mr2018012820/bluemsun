@@ -1,0 +1,288 @@
+a{
+	text-decoration:none;
+}
+html,body{
+	background:#f2f2f2;
+	margin:0;
+}
+#head{
+	width: 1349px;
+	height:516px;
+	margin-right: 0;
+	margin-left: 0;
+	background-image: url(images/2.jpg);
+}
+#head #logo{
+	padding-top:6px;
+}
+#head #logo .left{
+	float:left;
+	font-size: 40px;
+	font-family: 微软雅黑；
+	margin-top:6px;
+	margin-left:20px;
+	position:fixed;
+}
+
+#head #logo .right{
+	float:right;
+	font-size:25px;
+	font-family:微软雅黑;
+	margin-left:850px;
+	position:fixed;
+}
+#head .right img{
+	width:40px;
+	height:40px;
+}
+#head .right .a{
+    color:#f2f2f2;
+}
+#head  #logo .menu{
+	text-align: center;
+	font-size:60px;
+	font-family:微软雅黑;
+	color:#f2f2f2;
+	padding-top:130px;
+}
+#head  #logo .menu p{
+	text-align: center;
+	font-size:30px;
+	font-family:微软雅黑;
+	padding-top:10px;
+}
+#product .top{
+	text-align:center;
+	width:1349px;
+	height:90px;
+    padding-top:40px;
+}
+#Product .top .high{
+	font-size:35px;
+	font-family:微软雅黑;
+	text-align: center;
+}
+#Product .top .low{
+	font-size:20px;
+	font-family:微软雅黑;
+	text-align: center;
+	color:#919191;
+}
+#Product .center{
+	display:flex;
+	align-items: center; 
+    justify-content: center;
+}
+#Product .certer {
+     height:260px;
+     padding-top:20px;
+     width:1349px;
+     margin-right:20px;
+}
+#Product .certer .nav{
+	padding-left:34px;
+	float:left;
+    width:300px;
+    height:250px;
+}
+#Product .certer .nav img{
+	width:260px;
+	height:165px;
+}
+#Product  .certer .nav:hover{
+	box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.4);
+    transform: translate(0, -10px);
+}
+#Product .top .certer img{
+	width:260px;
+	height:135px;
+}
+
+#Blog{
+	height:700px;
+	width:1349px;
+}
+#Blog .top{
+	text-align:center;
+	width:1349px;
+	height:90px;
+    padding-top:40px;
+}
+#Blog .top .high{
+	font-size:35px;
+	font-family:微软雅黑;
+	text-align: center;
+}
+#Blog .top .low{
+	font-size:20px;
+	font-family:微软雅黑;
+	text-align: center;
+	color:#919191;
+}
+#Blog .main .new{
+	float:left;
+	width:535px;
+	height:400px;
+	background-color:#ffffff;
+	margin-top:100px; 
+	margin-left:80px;
+	margin-right:20px;
+
+} 
+#Blog .main .new p{
+    margin-left:30px;
+    font-family:微软雅黑;
+    font-size:20px;
+    font-color:#919191;
+}
+#Blog .main .new a{
+	margin-left:35px;
+    font-family:微软雅黑;
+    font-size:20px;
+    color:#919191;
+    line-height:35px;
+}
+#Blog .main .classify{
+	float:right;
+	width:535px;
+	height:400px;
+	background-color:#ffffff;
+	margin-top:100px; 
+	margin-left:30px;
+	margin-right:80px;
+}
+#Blog .main .classify p{
+    margin-left:30px;
+    font-family:微软雅黑;
+    font-size:20px;
+    font-color:#919191;
+}
+
+
+#Blog .main .classify .class {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+#Blog .main .classify .class .con {
+  width: 50%;
+  height: 75px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+#Blog .main .classify .class .con img {
+  height: 60px;
+  width: 60px;
+  float: left;
+}
+#Blog .main .classify .class .con .title {
+  color: #333;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: left;
+}
+#Blog .main .classify .class .con .title:hover {
+  color: #f2b535;
+}
+#Blog .main .classify .class .con .desc {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #c1c1c1;
+}
+#Star{
+	height:1200px;
+	width:100%;
+}
+#Star .top{
+	text-align:center;
+	width:1349px;
+	height:90px;
+    margin-top:30px;
+}
+#Star .top .high{
+	font-size:35px;
+	font-family:微软雅黑;
+	text-align: center;
+}
+#Star .top .low{
+	font-size:20px;
+	font-family:微软雅黑;
+	text-align: center;
+	color:#919191;
+}
+#Star .student{
+    display:flex;
+	align-items: center; 
+    justify-content: center;
+    flex-wrap:wrap ;
+}
+#Star .student .man{
+  width: 385px;
+  height: 314px;
+  margin-left: 10px;
+  margin-top: 20px;
+  background-color: #f5f8fa;
+  border: 1px solid #e4ecf3;
+  border-radius: 4px;
+  text-align: center;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+#Star .student .man:hover {
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.4);
+  transform: translate(0, -10px);
+}
+#Star .student .man .img {
+  height: 200px;
+}
+#Star .student .man .img img{
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: 35px;
+  cursor: pointer;
+}
+#Star .student .man .img .name {
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #333;
+}
+#Star .student .man .desc {
+  margin-top: 40px;
+  color: #616161;
+}
+#footer{
+	width:100%;
+	text-align:center;
+	height:100px;
+}
+#footer p{
+	font-family:微软雅黑;
+	color:#919191;
+}
+#footer img{
+	width:60px;
+	height:30px;
+}
+#ToTop{
+	width:90px;
+	height:50px;
+	float:right;
+	opacity: 1;
+	font-size: 20px;
+	line-height: 50px;
+	color:yellow;
+	position:fixed;
+ 	right:0px; 
+ 	bottom:0px;
+}
+
+
+
+
+
+
